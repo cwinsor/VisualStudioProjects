@@ -71,6 +71,8 @@
             <CheckBox Content="Laptop" Name="CheckboxLaptop" Margin="5"/>
             <CheckBox Content="Tablet" Name="CheckboxTablet" Margin="5"/>
         </StackPanel>
+        
+        
         <TextBlock Text="Your job"
                   Grid.Row="3"
                    HorizontalAlignment="Right"
@@ -106,5 +108,22 @@
                 Margin="5"
                 HorizontalAlignment="Right" Click="SaveButton_Click"  />
 
+        <TextBlock Text="Do you Prefer"
+                   Grid.Row="6"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   Margin="5" />
+        <StackPanel Orientation="Vertical"
+                    Grid.Row="6"
+                    Grid.Column="2"
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Left">
+            <CheckBox Content="Cats" Name="CheckboxCats" Margin="5"/>
+            <CheckBox Content="Dogs" Name="CheckboxDogs" Margin="5"/>
+            <CheckBox Content="Snakes" Name="CheckboxSnakes" Margin="5"/>
+        </StackPanel>
+
+    
+    
     </Grid>
 </Window>
