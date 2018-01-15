@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf06_Controls"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
+        Title="MainWindow" Height="550" Width="525">
+    <Grid Margin="0,0,0,-256">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             <RowDefinition Height="Auto" />
@@ -71,8 +71,8 @@
             <CheckBox Content="Laptop" Name="CheckboxLaptop" Margin="5"/>
             <CheckBox Content="Tablet" Name="CheckboxTablet" Margin="5"/>
         </StackPanel>
-        
-        
+
+
         <TextBlock Text="Your job"
                   Grid.Row="3"
                    HorizontalAlignment="Right"
@@ -89,14 +89,14 @@
             <ComboBoxItem Content="Manager" />
             <ComboBoxItem Content="CTO" />
             <ComboBoxItem Content="CEO" />
-            
+
         </ComboBox>
         <TextBox Text="Promised Delivery Date"
          Grid.Row="4"
          HorizontalAlignment="Right"
          VerticalAlignment="Bottom"
          Margin="5" />
-        
+
         <Calendar Grid.Row="4"
                   Name="DeliveryDate"
                   Grid.Column="1"
@@ -123,7 +123,18 @@
             <CheckBox Content="Snakes" Name="CheckboxSnakes" Margin="5"/>
         </StackPanel>
 
-    
-    
+        <TextBlock Text="Preferred Volume"
+                   Grid.Row="7"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Bottom"
+                   Margin="5" Cursor="Cross" />
+        <Slider Grid.Row="7" 
+            Grid.Column="1"
+                HorizontalAlignment="Left"
+                Margin="5" VerticalAlignment="Top" 
+                Width="232"/>
+
+
+
     </Grid>
 </Window>
