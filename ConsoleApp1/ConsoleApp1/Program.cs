@@ -11,9 +11,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Crud crud = new Crud();
-            crud.PopUpNow();
-            String s = crud.GetInput();
+       //    Crud crud = new Crud();
+       //     crud.PopUpNow();
+       //     String s = crud.GetInput();
             
 
         }
